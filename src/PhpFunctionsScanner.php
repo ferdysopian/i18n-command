@@ -38,6 +38,10 @@ class PhpFunctionsScanner extends GettextPhpFunctionsScanner {
 					list( $original, $domain ) = array_pad( $args, 2, null );
 					break;
 
+				case 'text_domain_context':
+					list( $original, $domain ) = array_pad( $args, 2, null );
+					break;	
+
 				case 'text_context_domain':
 					list( $original, $context, $domain ) = array_pad( $args, 3, null );
 					break;

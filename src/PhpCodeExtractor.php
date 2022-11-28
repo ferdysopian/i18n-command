@@ -31,6 +31,10 @@ final class PhpCodeExtractor extends PhpCode {
 			'_nx'             => 'single_plural_number_context_domain',
 			'_n_noop'         => 'single_plural_domain',
 			'_nx_noop'        => 'single_plural_context_domain',
+			
+			// JNews
+			'jnews_print_translation'  => 'text_domain_context',
+			'jnews_return_translation' => 'text_domain_context',
 
 			// Compat.
 			'_'               => 'gettext', // Same as 'text_domain'.
